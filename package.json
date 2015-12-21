@@ -20,5 +20,21 @@
   "bugs": {
     "url": "https://github.com/brion25/orm-admin-console/issues"
   },
-  "homepage": "https://github.com/brion25/orm-admin-console#readme"
+  "homepage": "https://github.com/brion25/orm-admin-console#readme",
+  "devDependencies": {
+    "babel": "^6.3.13",
+    "babel-core": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.3.13",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "node-mysql": "^0.4.2",
+    "orm": "^2.1.29",
+    "yargs": "^3.31.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
 }
